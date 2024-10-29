@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudengitoit - Retseptid igaks päevaks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header ja menüü -->
+    <header>
+        <div class="logo">Tudengitoit.ee</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Avaleht</a></li>
+                <li><a href="index.html#recipe-list">Retseptid</a></li>
+                <li><a href="index.html#todayRecommendation">Soovitused</a></li>
+                <li><a href="index.html#comments">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Otsing ja retseptide nimekiri -->
+    <main>
+        <section class="intro">
+            <h1>Lihtsad ja taskukohased retseptid tudengitele</h1>
+            <input type="text" id="search-input" placeholder="Otsi retsepte...">
+            <!-- Filteri valik -->
+            <select id="recipeFilter" onchange="filterRecipes()">
+                <option value="all">Kõik</option>
+                <option value="breakfast">Hommikusöök</option>
+                <option value="lunch">Lõunasöök</option>
+                <option value="dinner">Õhtusöök</option>
+            </select>
+        </section>
+
+        <!-- Populaarsed retseptid -->
+        <section class="popular-recipes" id="recipe-list">
+            <h2>Populaarsed retseptid</h2>
+            <div class="recipe-grid">
+                <!-- Retseptid laetakse JavaScripti kaudu -->
+            </div>
+        </section>
+
+        <!-- Slaidishow -->
+        <section class="slideshow-container">
+            <img class="slide" src="img/retsept1.jpg" style="display: block;">
+            <img class="slide" src="img/retsept2.jpg" style="display: none;">
+            <button onclick="nextSlide()">Järgmine</button>
+        </section>
+
+        <!-- Päeva soovitus -->
+        <section id="todayRecommendation" class="recommendation"></section>
+
+        <!-- Kommentaaride sektsioon -->
+        <section id="comments">
+            <h3>Jäta oma arvamus:</h3>
+            <textarea id="commentBox" placeholder="Kirjuta oma kommentaar..."></textarea>
+            <button onclick="addComment()">Saada kommentaar</button>
+            <div id="commentSection"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Tudengitoit.ee</p>
+    </footer>
+    
+    <!-- JavaScripti ühendamine -->
+    <script src="js/script.js"></script>
+</body>
+</html>

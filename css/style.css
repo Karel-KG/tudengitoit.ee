@@ -1,0 +1,189 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', serif; /* Uus font */
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    background-color: #ff6600; /* Kõige ülemine riba */
+    color: rgb(253, 253, 253);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive; /* Rakenda Pacifico font logo jaoks */
+    font-size: 1rem; /* Soovi korral saate ka suurust muuta */
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sissejuhatus ja sektsioonid */
+.intro {
+    padding: 2rem;
+    text-align: center;
+    background-color: #333; 
+    color: rgb(255, 255, 255);
+}
+
+.intro h1 {
+    font-size: 2rem;
+}
+
+.popular-recipes {
+    padding: 1rem;
+    background-color: #f2f0ee; 
+    color: white;
+}
+
+.popular-recipes h2 {
+    font-size:1.8rem;
+    text-align: center;
+    margin-bottom: 17rem;
+}
+
+/* Retseptide paigutus */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.recipe-item {
+    background-color: #FF6600;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipe-item img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-item h3 {
+    padding: 0.5rem;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #FF6600; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+
+.recipe-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#recipe-details {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+#recipe-details img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #ffffff; 
+}
+
+h2 {
+    color: #FF6600
+}
+
+/* Hover-efekt retsepti kaartidele */
+.recipe-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Nuppude hover-efekt */
+.button {
+    background-color: #ff8300;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff6600;
+}
+
+/* Mobiilioptimeeritud paigutus */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe-card {
+    flex: 1 1 calc(50% - 20px); /* Kahe veeru paigutus */
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .recipe-card {
+        flex: 1 1 100%; /* Üks veerg mobiilseadmetel */
+    }
+}
+
+/* Slaidishow stiilid */
+.slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.slide {
+    max-width: 100%;
+    display: none;
+}
+
+/* Kommentaaride stiilid */
+.comment {
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-left: 3px solid #FF6600;
+}
+
+/* Päeva soovituse stiil */
+#todayRecommendation {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FF6600;
+    text-align: center;
+    margin-top: 1rem;
+}

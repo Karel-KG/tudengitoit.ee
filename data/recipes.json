@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Odratangupuder köögiviljadega",
+        "description": "Maitsev ja toitev puder, mis sobib kiireks lõunaks.",
+        "image": "img/retsept1.jpg",
+        "ingredients": ["200g odratangu", "2 porgandit", "1 sibul", "maitseained"],
+        "instructions": "Keeda odratangud ja lisa hakitud köögiviljad. Maitsesta ja serveeri soojalt."
+    },
+    {
+        "id": 2,
+        "title": "Riisiroog köögiviljadega",
+        "description": "Lihtne ja maitsev riisiroog tudengitele.",
+        "image": "img/retsept2.jpg",
+        "ingredients": ["200g riisi", "1 paprika", "1 porgand", "1 sibul"],
+        "instructions": "Keeda riis ja prae köögiviljad. Sega kokku ja maitsesta."
+    },
+    {
+        "id": 3,
+        "title": "Kõrvitsasupp",
+        "description": "Lihtne ja maitsev supp tudengitele.",
+        "image": "img/retsept3.jpg",
+        "ingredients": ["200g kõrvitsat", "1 peekon", "1 psibul", "seesamiseemned"],
+        "instructions": "Keeda kõrvits ja sega köögiviljad. Sega kokku ja maitsesta."
+    },
+    {
+        "id": 4,
+        "title": "Burgeritaco",
+        "description": "Lihtne ja maitsev riisiroog tudengitele.",
+        "image": "img/retsept4.jpg",
+        "ingredients": ["200g hakkliha", "1 tacopõhi", "1 tomat", "1 sibul"],
+        "instructions": "Prae hakkliha ja pane tacole. Sega kokku ja maitsesta."
+    },
+    {
+        "id": 5,
+        "title": "Kanapuljong",
+        "description": "Lihtne ja maitsev puljong tudengitele.",
+        "image": "img/retsept5.jpg",
+        "ingredients": ["200g rasva", "1 paprika", "1 porgand", "1 sibul"],
+        "instructions": "Keeda rasva ja köögiviljad. Sega kokku ja maitsesta."
+    },
+    {
+        "id": 6,
+        "title": "Riisiroog köögiviljadega",
+        "description": "Lihtne ja maitsev riisiroog tudengitele.",
+        "image": "img/retsept2.jpg",
+        "ingredients": ["200g riisi", "1 paprika", "1 porgand", "1 sibul"],
+        "instructions": "Keeda riis ja prae köögiviljad. Sega kokku ja maitsesta."
+    }
+]

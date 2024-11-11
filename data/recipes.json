@@ -1,11 +1,13 @@
 [
     {
         "id": 1,
-        "title": "Odratangupuder köögiviljadega",
-        "description": "Maitsev ja toitev puder, mis sobib kiireks lõunaks.",
-        "image": "img/retsept1.jpg",
-        "ingredients": ["200g odratangu", "2 porgandit", "1 sibul", "maitseained"],
-        "instructions": "Keeda odratangud ja lisa hakitud köögiviljad. Maitsesta ja serveeri soojalt."
+        "title": "Brokeito",
+        "description": "Odav tudengi hakklihaburrito.",
+        "image": "img/retsept4.jpg",
+        "ingredients": ["200 g hakkliha (soovi korral võib kasutada seguhakkliha)", "1 väike sibul, hakitud", "1 küüslauguküüs, hakitud (võib ka ära jätta, kui pole käepärast)",
+         "1 tl õli praadimiseks(võib ka kasutada võid)", "1 tl tomatipastat (või ketšupit)", "näpuotsaga soola, pipart ja tšillipulbrit (kui soovid vürtsikamat)", "100 g konserveeritud ube (odav ja toitev lisa)", "2 suurt tortillat (poest ostetud, soojenda vajadusel pannil või mikrolaineahjus)",
+          "Salsat või ketšupit (valikuline, lihtne viis lisamaitse jaoks)", "Natuke riivitud juustu (valikuline, kui soovid lisakohevatust)"],
+        "instructions": "Kuumuta pann keskmisel kuumusel ja lisa õli (või võid). Lisa hakitud sibul ja küüslauk ning prae kuni sibul on klaasjas (umbes 2-3 minutit). Lisa hakkliha pannile ning prae, kuni liha on läbi küpsenud ja pruunistunud. Sega juurde tomatipasta (või ketšup), sool, pipar ja tšillipulber. Sega, kuni maitseained on ühtlaselt jaotunud. Lisa oad ning kuumuta läbi, et kõik oleks soe ja maitsed segunenud. Kokku panemine: Tõsta hakkliha-oasegu tortillale, lisa soovi korral salsat või ketšupit ning natuke riivitud juustu. Rulli burrito kokku: Keera alumine osa üles ja seejärel küljed kokku, et täidis püsiks sees."
     },
     {
         "id": 2,
@@ -25,11 +27,11 @@
     },
     {
         "id": 4,
-        "title": "Burgeritaco",
-        "description": "Lihtne ja maitsev riisiroog tudengitele.",
-        "image": "img/retsept4.jpg",
-        "ingredients": ["200g hakkliha", "1 tacopõhi", "1 tomat", "1 sibul"],
-        "instructions": "Prae hakkliha ja pane tacole. Sega kokku ja maitsesta."
+        "title": "Odratangupuder köögiviljadega",
+        "description": "Maitsev ja toitev puder, mis sobib kiireks lõunaks.",
+        "image": "img/retsept1.jpg",
+        "ingredients": ["200g odratangu", "2 porgandit", "1 sibul", "maitseained"],
+        "instructions": "Keeda odratangud ja lisa hakitud köögiviljad. Maitsesta ja serveeri soojalt."
     },
     {
         "id": 5,

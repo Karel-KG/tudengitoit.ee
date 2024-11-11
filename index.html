@@ -15,7 +15,6 @@
             <ul>
                 <li><a href="index.html">Avaleht</a></li>
                 <li><a href="index.html#recipe-list">Retseptid</a></li>
-                <li><a href="index.html#todayRecommendation">Soovitused</a></li>
                 <li><a href="index.html#comments">Kontakt</a></li>
             </ul>
         </nav>
@@ -26,13 +25,6 @@
         <section class="intro">
             <h1>Lihtsad ja taskukohased retseptid tudengitele</h1>
             <input type="text" id="search-input" placeholder="Otsi retsepte...">
-            <!-- Filteri valik -->
-            <select id="recipeFilter" onchange="filterRecipes()">
-                <option value="all">Kõik</option>
-                <option value="breakfast">Hommikusöök</option>
-                <option value="lunch">Lõunasöök</option>
-                <option value="dinner">Õhtusöök</option>
-            </select>
         </section>
 
         <!-- Populaarsed retseptid -->
@@ -42,24 +34,11 @@
                 <!-- Retseptid laetakse JavaScripti kaudu -->
             </div>
         </section>
-
-        <!-- Slaidishow -->
-        <section class="slideshow-container">
-            <img class="slide" src="img/retsept1.jpg" style="display: block;">
-            <img class="slide" src="img/retsept2.jpg" style="display: none;">
-            <button onclick="nextSlide()">Järgmine</button>
-        </section>
-
-        <!-- Päeva soovitus -->
-        <section id="todayRecommendation" class="recommendation"></section>
-
-        <!-- Kommentaaride sektsioon -->
         <section id="comments">
-            <h3>Jäta oma arvamus:</h3>
-            <textarea id="commentBox" placeholder="Kirjuta oma kommentaar..."></textarea>
-            <button onclick="addComment()">Saada kommentaar</button>
+            <textarea id="commentBox" placeholder="Lisa kommentaar"></textarea>
+            <button onclick="addComment()">Lisa kommentaar</button>
             <div id="commentSection"></div>
-        </section>
+        </section>              
     </main>
 
     <footer>

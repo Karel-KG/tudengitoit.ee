@@ -39,12 +39,5 @@
         "ingredients": ["200g rasva", "1 paprika", "1 porgand", "1 sibul"],
         "instructions": "Keeda rasva ja köögiviljad. Sega kokku ja maitsesta."
     },
-    {
-        "id": 6,
-        "title": "Riisiroog köögiviljadega",
-        "description": "Lihtne ja maitsev riisiroog tudengitele.",
-        "image": "img/retsept2.jpg",
-        "ingredients": ["200g riisi", "1 paprika", "1 porgand", "1 sibul"],
-        "instructions": "Keeda riis ja prae köögiviljad. Sega kokku ja maitsesta."
-    }
-]
+    
+    

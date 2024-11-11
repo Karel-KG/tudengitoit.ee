@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </a>
                 `;
                 recipeList.appendChild(recipeCard);
-            });
+            }); 
         });
 
     // Otsingufunktsioon
@@ -55,28 +55,6 @@ if (window.location.pathname.endsWith("retsept.html")) {
         });
 }
 
-// Filtreeri retsepte
-function filterRecipes() {
-    const filter = document.getElementById("recipeFilter").value;
-    const recipes = document.querySelectorAll(".recipe-item");
-
-    recipes.forEach((recipe) => {
-        if (filter === "all" || recipe.classList.contains(filter)) {
-            recipe.style.display = "block";
-        } else {
-            recipe.style.display = "none";
-        }
-    });
-}
-
-// Slaidishow funktsioon
-let currentSlide = 0;
-function nextSlide() {
-    const slides = document.querySelectorAll(".slide");
-    slides[currentSlide].style.display = "none";
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].style.display = "block";
-}
 
 // Kommentaari lisamine
 function addComment() {
@@ -90,16 +68,3 @@ function addComment() {
     commentSection.appendChild(newComment);
     commentBox.value = "";
 }
-
-// Päeva soovituse kuvamine
-const recommendations = [
-    "Kiired pastaretseptid tudengitele",
-    "5-minutilised hommikusöögid",
-    "Soodne õhtusöök kahele"
-];
-
-function setDailyRecommendation() {
-    const today = new Date().getDay();
-    document.getElementById("todayRecommendation").innerText = recommendations[today % recommendations.length];
-}
-setDailyRecommendation();

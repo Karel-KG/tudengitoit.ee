@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Brokeito",
-        "description": "Odav tudengi hakklihaburrito.",
+        "description": "Odav tudengi hakklihaburrito",
         "image": "img/retsept4.jpg",
         "ingredients": ["200 g hakkliha (soovi korral võib kasutada seguhakkliha)", "1 väike sibul, hakitud", "1 küüslauguküüs, hakitud (võib ka ära jätta, kui pole käepärast)",
          "1 tl õli praadimiseks(võib ka kasutada võid)", "1 tl tomatipastat (või ketšupit)", "näpuotsaga soola, pipart ja tšillipulbrit (kui soovid vürtsikamat)", "100 g konserveeritud ube (odav ja toitev lisa)", "2 suurt tortillat (poest ostetud, soojenda vajadusel pannil või mikrolaineahjus)",
@@ -41,7 +41,7 @@
     {
         "id": 5,
         "title": "Nuudlipada",
-        "description": "lihtne, kiire ja maitsekas ning aitab sul kapijääke ära kasutada!",
+        "description": "lihtne, kiire ja maitsekas ning aitab sul kapijääke ära kasutada",
         "image": "img/retsept5.jpg",
         "ingredients": ["1 pakk kiirnuudleid (kana-, köögivilja- või sojanuudlid – mis tahes maitse)", "1 väike sibul, hakitud", "1 porgand, õhukesteks ribadeks lõigatud", "1 paprika, ribadeks lõigatud (valikuline)", "Peotäis külmutatud köögivilju (nt maisi, herneid või brokkolit)", "1 tl õli praadimiseks", "1 tl sojakastet (valikuline, maitse lisamiseks)", 
         "Näpuotsaga soola ja pipart", "Soovi korral võid lisada magushapu kastet", "Rohelist sibulat või seesamiseemneid peale puistamiseks (valikuline)", "Lisa valku: kui sul on mune, võid lisada segule ühe lahtiklopitud muna ja segada seda pannil nuudlitega, kuni see on hüübinud", "Odavam variant: kasuta olemasolevaid köögivilju või hoopis konserveeritud ube või maisi, et toidule toekust lisada"],
@@ -50,7 +50,7 @@
     {
         "id": 6,
         "title": "Munaläbu",
-        "description": "Soodne, kiire ja maitsev munaroog.",
+        "description": "Soodne, kiire ja maitsev munaroog",
         "image": "img/retsept7.jpg",
         "ingredients": ["4 muna", "1/2 purki konserveeritud musti või valgeid ube (umbes 100 g), nõrutatud ja loputatud", "1 väike sibul, hakitud", "1 väike paprika, kuubikuteks", 
         "Peotäis spinatilehti või muid köögivilju (nt suvikõrvits või tomatikuubikud)", "1 tl õli või võid pannil määrimiseks", "Näpuotsaga soola ja pipart", "Soovi korral veidi riivitud juustu (pealeraputamiseks)", "Lisamaitse jaoks võid lisada maitserohelist, näiteks murulauku või basiilikut", 

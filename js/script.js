@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         recipeItems.forEach(item => {
             const recipeName = item.querySelector("h3").textContent.toLowerCase();
-            item.style.display = recipeName.includes(searchTerm) ? "block" : "none";
+            const recipeDescription = item.querySelector("p").textContent.toLowerCase();
+            item.style.display = recipeName.includes(searchTerm) || recipeDescription.includes(searchTerm) ? "block" : "none";
         });
     });
 });

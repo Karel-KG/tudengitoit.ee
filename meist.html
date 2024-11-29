@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudengitoit - Meist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header ja menüü -->
+    <header>
+        <div class="logo">Tudengitoit.ee</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Avaleht</a></li>
+                <li><a href="index.html#recipe-list">Retseptid</a></li>
+                <li><a href="meist.html">Meist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-us">
+            <h1>Meist</h1>
+            
+            <div class="about-section">
+                <h2>Kes me oleme?</h2>
+                <p>Tudengitoit.ee on loodud tudengitelt tudengitele. Meie eesmärk on pakkuda taskukohaseid ja lihtsaid retsepte, mis sobivad kiireks valmistamiseks ja piiratud eelarvega.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Meie missioon</h2>
+                <p>Soovime aidata tudengitel valmistada tervislikke ja maitsvaid toite, ilma et nad peaksid kulutama palju aega või raha. Usume, et hea toit ei pea olema keeruline ega kallis.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Meie tiim</h2>
+                <div class="team-members">
+                    <div class="team-member">
+                        <h3>Karel Konga</h3>
+                        <p>Retseptide Arendaja</p>
+                    </div>
+                    <div class="team-member">
+                        <h3>Kenert Kustov</h3>
+                        <p>Veebilehe/Idee Arendaja</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>Jäta meile kommentaar</h2>
+                <div class="comment-section">
+                    <textarea id="commentBox" placeholder="Lisa kommentaar..." rows="4"></textarea>
+                    <button onclick="addComment()">Lisa kommentaar</button>
+                    <div id="commentSection"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Tudengitoit.ee</p>
+    </footer>
+
+    <script>
+        document.getElementById('commentBox').addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = this.scrollHeight + 'px';
+        });
+        // näitab aitäh kommentaari eest notificationi  
+        function showNotification() {
+            const notification = document.createElement('div');
+            notification.className = 'notification';
+            notification.textContent = 'Aitäh kommentaari eest!';
+            document.body.appendChild(notification);
+            
+            // triggerib reflow selleks et kindlaks teha et animatsioon töötaks
+            notification.offsetHeight;
+            notification.classList.add('show');
+            
+            // kaotab notificationi peale 3 sekundit
+            setTimeout(() => {
+                notification.classList.remove('show');
+                setTimeout(() => {
+                    notification.remove();
+                }, 300); // ootab et fade out animatsioon lõpeks
+            }, 3000);
+        }
+
+        function addComment() {
+            const commentBox = document.getElementById('commentBox');
+            
+            if (commentBox.value.trim() !== '') {
+                commentBox.value = '';  // Clear the input
+                commentBox.style.height = 'auto';  // Reset height
+                showNotification();  // Show the thank you message
+            }
+        }
+    </script>
+</body>
+</html>

@@ -183,9 +183,9 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 1rem;
-    resize: none;         /* Prevents manual resizing */
-    overflow-y: hidden;   /* Hides scrollbar */
-    min-height: 100px;    /* Initial height */
+    resize: none;         
+    overflow-y: hidden;   /* peidab scrollbari */
+    min-height: 100px;    /* Algne kõrgus */
 }
 
 .comment-section button {
@@ -200,7 +200,7 @@ h2 {
 }
 
 .comment-section button:hover {
-    background-color: #e65c00; /* Slightly darker orange for hover state */
+    background-color: #e65c00; /* pisut tumedam nupp kui hõljuda */
 }
 
 .notification {
